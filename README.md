@@ -1,42 +1,48 @@
-# **BA Lounge Capacity Optimization Model**
+British Airways Data Science Project: Customer Analytics & Predictive Modeling
+🎯 Project Overview
+Two-part data science simulation tackling real business challenges at British Airways: analyzing customer sentiment from reviews and building a predictive model for booking behavior.
 
-## 🎯 **The Problem**
-British Airways needed to predict passenger lounge demand at Heathrow Terminal 3 to prevent overcrowding while optimizing operational costs—balancing premium customer experience with facility efficiency.
+📊 Part 1: Customer Sentiment Analysis
+Scraped and analyzed customer reviews to identify pain points and satisfaction drivers
 
-## 🎯 **The Goal**
-Build a scalable demand forecasting model using flight schedule data to enable data-driven lounge capacity planning for Summer 2025 and beyond.
+Performed sentiment analysis to categorize feedback into actionable insights
 
-## 🛠️ **What I Built**
-A predictive analytics framework that:
-1. **Processed** 1,000+ flight records with 17 variables
-2. **Categorized** flights by strategic segments (haul type + cabin configuration)
-3. **Applied** tier-specific eligibility rules based on industry benchmarks
-4. **Delivered** an interactive executive dashboard with actionable insights
+Delivered data-backed recommendations for improving customer experience
 
-## 📊 **Key Business Insights**
-- **70% of demand** comes from **30% of flights** (long-haul routes)
-- **Peak hours**: 14:00-18:00 (US departure bank alignment)
-- **Top 5 routes** generate **45% of total lounge demand**
-- **Clear evidence** supports potential Tier 1 lounge expansion
+🤖 Part 2: Booking Completion Prediction
+Built a Random Forest classifier on 50,000+ booking records to predict customer booking completion
 
-## 📈 **Business Impact**
-- **15-25% operational savings** through precise capacity planning
-- **Risk mitigation** preventing both overcrowding and underutilization
-- **Enhanced customer experience** for premium passengers
-- **Scalable framework** adaptable to changing schedules
+Engineered features from booking data, handled high-cardinality categorical variables and class imbalance
 
-## 🔧 **Skills Demonstrated**
-### **Technical:**
-- Data Analysis & Processing | Predictive Modeling | Business Intelligence
-- Data Visualization (Google Sheets) | Scalable System Design
+Achieved 85% accuracy with 0.80 AUC, identifying key drivers: purchase lead time, flight duration, and add-on preferences
 
-### **Business:**
-- Problem Framing & Requirements Translation | Stakeholder Communication
-- Strategic Planning | Cross-functional Impact Analysis
+Provided actionable insights for targeted marketing and customer segmentation
 
-## 🚀 **Why This Matters**
-**To BA:** Solves a critical operational challenge with direct financial and customer experience impact.
+🛠️ Technical Skills Demonstrated
+Data Engineering: Web scraping, data cleaning, feature engineering, handling imbalanced data
 
-**To My Career:** Demonstrates end-to-end problem-solving—from business need to deployed solution—with measurable outcomes in a real corporate environment.
+Machine Learning: Random Forest, cross-validation, hyperparameter tuning, model evaluation
 
-**Bottom Line:** Transformed raw data into strategic business intelligence that drives smarter operational decisions and cost savings.
+Analytics: Feature importance analysis, business interpretation, stakeholder communication
+
+Tools: Python, pandas, scikit-learn, matplotlib, seaborn
+
+📈 Business Impact
+Customer Experience: Identified improvement areas from sentiment analysis
+
+Conversion Optimization: Enabled targeted marketing to high-propensity customers
+
+Strategic Insights: Data-driven understanding of booking behavior drivers
+
+Scalable Framework: Reusable analytics pipeline for ongoing customer analysis
+
+🎯 Why This Project Matters
+End-to-End Execution: From raw data to business recommendations
+
+Real-World Application: Solving actual airline industry challenges
+
+Technical & Business Balance: Combining modeling rigor with actionable insights
+
+Measurable Outcomes: Clear performance metrics and business impact
+
+Professional Takeaway: Demonstrates ability to transform complex data into strategic business intelligence that drives customer satisfaction and operational efficiency in a competitive industry.
